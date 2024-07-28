@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Project</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .left{
+            position: absolute;
+
+            width:400px;
+            height:350px;
+                background-color: coral;
+                padding: 20px;
+                border: 3px solid #73AD21;}
+        div{
+            display: flexbox;
+            text-align: center;
+        }
+        .center{
+                position: absolute;
+               
+           width: 400px;
+           /* Moves the element 50px to the right and 100px down */
+margin-left: 550px;
+           height: 390px;
+                background-color: orchid;
+                border: 3px solid #73AD21;
+        }
+        .right{
+            position: absolute;
+                margin-left: 1100px;
+                background-color: wheat;
+                border: 3px solid #73AD21;
+                width: 400px;
+                height: 380px;
+               
+        }
+        #l{
+            width: 100px;
+            height: 100px;
+
+        }
+        li{
+           
+            list-style: none;
+        }
+        .container{
+        background-color: green;
+        border: 3px #73AD21;
+        width:300 px;
+        height:100 px;
+
+    }
+    .container img{
+        width:100 px;
+        height:150px;
+    }
+    .container1{
+        width:300px;
+        height:500px;
+        background-color: aqua;
+    }
+    </style>
+    
+</head>
+<body>
+    <div class="container">  
+        <img src="Coffee Logo Shop.jpg" alt="Logo Of a Shop ">  
+        <h1 > Welcome to Baa Guru Tea kudi Shop </h1> 
+        <h2> Jayanna</h2>
+        <h3> Coffee Shop</h3>
+     </div>
+<div style="border: 5px solid orange;height:100px">
+    <h1 style="text-align: left;">
+    <a href="Home.html" >Information about tea shop</a></h1>
+    <h1 style="text-align: right;">
+        <a href="Login.html">Login Page for Admin</a></h1>
+</div>
+<div style="border: 2px solid purple;background-color: blueviolet; padding: 20px;padding:0;font-size: 20px;height: 400px;">
+    <div class="left" >
+        <h3> Special Tea </h3>
+        <h2> Cost:&#x20b9 15</h2>
+        <img  id="l"src="tea.jpg"alt="Tea Image">
+        <ul>
+            <li> Ingredients</li>
+            <li> Special Milk</li>
+            <li> Elachi</li>
+            <li> Users choice of Tea powder</li>
+        </ul>
+    </div>
+    <div class="center" >
+        <h3> Special Coffee</h3>
+        <h2> Cost:&#x20b9 10</h2>
+        <img src="Coffee.jpg"height="100 px"width="100"alt="Coffee Image">
+        <ul type=".">
+            <li>Special Milk</li>
+            <li>Malenadu Coffee powder</li>
+            <li> Hot Coffee with traditional Style making</li>
+        </ul>
+    </div>
+    <div class="right" >
+    <h3>Milk</h3>
+    <h2>Cost:&#x20b9 20</h2>
+    <img src="Milk.jpg"height="100"width="100"alt="Milk Image">
+    <ul style="list-style-type: circle;">
+        <li>Badam Milk</li>
+        <li>Horlicks</li>
+        <li>Boost</li>
+        <li>Special milks are available</li>
+    </ul>
+    </div>
+    </div>
+    <div style="border: 2px solid paleturquoise;background-color: pink;height:300px">
+        <h1>Facilites provided for customers</h1>
+        <ol type="I">
+            <h2>
+            <li > Online Transactions are available</li>
+            <li> Credit card and debit cards accepted</li>
+            <li> Wifi Facility</li>
+            <li> Discounts are available</li>
+            <li> Different types of Tea and coffees are available</li>
+            </h2>
+        </ol>
+    </div>
+    <section id="contact" class="contact">
+       <div class="container1">
+  
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>Contact the shop address and contact through email and phone number</p>
+            <p>Email Id:jrpavan7673@gamail.com</p>
+            <p>Mobile Number:6281931025</p>
+          </div>
+  
+          <div class="row" data-aos="fade-in">
+  
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>Chinna Cholagiri(V),Gudibanda(M),Madakasira(T),Sri Satya Sai(D),AP</p>
+                  <p>Pin Code:515271</p>
+                </div>
+  
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>jrpavan7673@gmail.com</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+91 6281931025</p>
+                </div>
+                
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31020.59503081264!2d79.28245250000002!3d13.622787100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1712558767194!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="name" class="form-control" id="name" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Email</label>
+                    <input type="email" class="form-control" name="email" id="email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="name">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject" required>
+                </div>
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" name="message" rows="10" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Contact Section -->
+</body>
+</html>
